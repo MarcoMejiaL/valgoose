@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Marco Mejia Lopez <tomatin77@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.42.1"
+  }
 }
