@@ -2,9 +2,10 @@
 
 
 
-@import url(./cards.css);
-@import url(./footer.css);
-@import url(./menu.css);
+@import url(./csspages/cards.css);
+@import url(./csspages/footer.css);
+@import url(./csspages/menu.css);
+@import url('./csspages/serviesCards.css');
 :root{    
     --blue: #007bff;
     --indigo: #6610f2;
