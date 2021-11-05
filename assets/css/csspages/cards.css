@@ -84,7 +84,7 @@
     width: 120px;
     height: 20px;
     color: var(--white);
-    background-color: #94c9d9;
+    background-color: var(--azulito);
     
     cursor: pointer;
     margin-bottom: 15px;
