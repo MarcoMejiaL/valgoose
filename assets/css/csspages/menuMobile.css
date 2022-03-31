@@ -1,0 +1,32 @@
+.navabr__menu--mobile{
+    width: 320px;
+    height: auto;
+    
+}
+.navbr__menu--gridmobile{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+    
+}
+.navbr__menu--gridmobile li{
+    padding: 8px;
+    margin: 0 2px 2px 0;
+    
+    border-bottom: 1px solid #666;
+}
+.navbr__menu--gridmobile li a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: var(--base_black);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbr__menu--gridmobile li a:active{
+    color: var(--pink);
+    transition: all;
+    cursor: pointer;
+    transition: all 6ms;
+
+}
