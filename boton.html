@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://kit.fontawesome.com/241e03a3a0.js" crossorigin="anonymous"></script>
+    
+</head>
+<style>
+   .second__button{
+       z-index: 1;
+       height: 40px;
+       width: 155px;
+       border: 1px solid var(--pink);
+       background: transparent;
+        border-radius: 20px;
+       text-align: center;
+       display: grid;
+       grid-template-columns: 3fr 1fr;
+       justify-content: center;
+       align-items: center;
+       overflow: hidden;
+       transition: ease-out 0.3s;
+       outline: none;
+       box-shadow: inset 0 0 0 0 var(--pink);
+
+       
+   }
+   .second__button:hover{
+       cursor: pointer;
+       
+       
+       
+   }
+   .second__button:before{
+       background-color: var(--pink);
+   }
+   .button-icon{
+        
+       background-color: var(--pink);
+       width: 38px;
+       height: 38px;
+       border-radius: 50%;
+       display: flex;
+        justify-content: center;
+        align-items: center;       
+        margin-right:0px ;
+        
+
+
+   }
+   .second__button:hover{
+    box-shadow: inset -300px 0 0 0 var(--pink);
+    color: white;
+   }
+
+
+</style>
+<body>
+    <button class="second__button" id="buttons" >
+        <span >About Me!</span>
+        <span class="button-icon fas fa-arrow-right" ></span>
+        
+        
+    </button>
+    
+</body>
+</html>

@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap');
 
 
 
@@ -12,6 +13,7 @@
 @import url(./csspages/navbar.css);
 @import url(./csspages/menuMobile.css);
 @import url(./csspages/slider.css);
+@import url(./csspages/banner.css);
 
 :root{    
     --azulito: #94c9d9;
@@ -33,4 +35,8 @@ html{
 }
 body{
     font-family: 'Poppins', sans-serif;
+}
+.bannerTittle{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
