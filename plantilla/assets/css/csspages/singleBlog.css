@@ -37,14 +37,14 @@
     gap: 12px;
     justify-items: center;
     align-items: center;
-    border: 1px solid black;
+    
     height: fit-content;
     
 }
 .aside__basicSearch{
     
     height: 20px;
-    border: 1px solid var(--base_black);
+    
     color: var(--base_black);
     padding: 12px;
     
@@ -56,7 +56,7 @@
 }
 
 .aside__recentBlogs{
-    border: 1px solid black;
+    
     width: 100%;
     margin: 12px;
     
@@ -107,3 +107,53 @@ margin-left: 4px;
     margin-bottom: 3px;
     color: var(--dark);
 }
+
+
+
+
+/* -------------------------------------------- */
+
+
+
+
+
+
+
+
+.licardo{
+    width: auto;
+    display: inline-block;
+    margin: 4px;
+    border: 1px solid #ccc;
+    
+    padding: 8px;
+    border-radius: 8px;
+}
+.licardo a{
+    color: #666;
+    padding: 2px;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+}
+
+
+.about--container--grid{
+    
+    
+    columns: 2 120px;
+    column-gap: 1em;
+    gap: 4px;    
+    padding: 16px;
+    width: 100%;
+    
+    
+    
+}
+.about--container--grid li{
+    
+   list-style: none;
+    
+}
+
+
