@@ -16,6 +16,7 @@
 @import url(./csspages/banner.css);
 @import url(./csspages/cardblog.css);
 @import url(./csspages/blogContainer.css);
+@import url(./csspages/singleBlog.css);
 
 :root{    
     --azulito: #94c9d9;
@@ -41,4 +42,13 @@ body{
 .bannerTittle{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Playfair Display', serif;
+}
+.titleh3{
+    
+    font-family: 'Playfair Display', serif;
+    
+    font-size: 1.8rem;
+    color: #343a40;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
