@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap');
+
+
+
+
+
+@import url(./csspages/cards.css);
+@import url(./csspages/footer.css);
+@import url(./csspages/menu.css);
+@import url(./csspages/serviesCards.css);
+@import url(./csspages/navbar.css);
+@import url(./csspages/menuMobile.css);
+@import url(./csspages/slider.css);
+@import url(./csspages/banner.css);
+@import url(./csspages/cardblog.css);
+@import url(./csspages/blogContainer.css);
+@import url(./csspages/singleBlog.css);
+
+:root{    
+    --azulito: #94c9d9;
+    --blue: #007bff;
+    --pink: #f195b2;
+    --white: #fff;
+    --gray: #a8a8a8;
+    --base_black: #666;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.bannerTittle{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.titleh3{
+    
+    font-family: 'Playfair Display', serif;
+    
+    font-size: 1.8rem;
+    color: #343a40;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
