@@ -1,12 +1,13 @@
 import React from 'react';
 
+import logo from '@img/logo.png'
 
 const Footer = ()=>{
     return(
         <footer className="footer">
         <div className="footer__container">
             <div className="footer__tittle">
-                <img src="" alt="logo footer"/>
+                <img src={logo} alt="logo footer"/>
                 
                 <h2>Cherry Bomb´n</h2>
                 

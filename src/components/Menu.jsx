@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+import logo from '@img/logo.png'
 const Menu =()=>{
     return(
         <header className="navbar__main--container">
@@ -9,7 +9,7 @@ const Menu =()=>{
             <div className="socialMeadia--mail">
                 <p>
                     <i className="fas fa-phone-alt"></i>
-                    +(255) 735 146 1281
+                    +(255) 735 146 
                 </p>
                 <p>
                     <i className="far fa-envelope"></i>
@@ -41,7 +41,7 @@ const Menu =()=>{
         <div className="navbar__navegationContainer">
             <div className="navbar__logo">
                 <a href="">
-                    <img src="" alt="logo"/> 
+                    <img src={logo} alt="logo"/> 
                 </a>
                 
             </div>
@@ -50,13 +50,13 @@ const Menu =()=>{
             <nav className="navabr__menu">
                 <ul className="navbr__menu--grid">
                     <li>
-                        <a href="">Inicio</a>
+                        <a href="/">Inicio</a>
                     </li>
                     <li>
-                        <a href="">Nuestros Pasteles</a>
+                        <a href="/cakes">Nuestros Pasteles</a>
                     </li>
                     <li>
-                        <a href="">Menu</a>
+                        <a href="/prices">Menu</a>
                     </li>
                     <li>
                         <a href="">Acerca de Nosotros</a>

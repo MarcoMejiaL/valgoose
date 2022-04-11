@@ -6,10 +6,22 @@ module.exports ={
     entry:'./src/index.js',
     output:{
         path: path.resolve(__dirname, 'dist'),
-        filename: 'boundle.js'
+        filename: 'boundle.js',
+        publicPath: '/'
     },
     resolve:{
         extensions:['.js', '.jsx'],
+        alias: {
+            '@components': path.resolve(__dirname,'./src/components'),
+            '@containers': path.resolve(__dirname, './src/containers'),
+            '@hooks': path.resolve(__dirname, './src/hooks'),
+            '@pages': path.resolve(__dirname, './src/pages'),
+            '@routes': path.resolve(__dirname, './src/routes'),
+            '@styles': path.resolve(__dirname,'./src/styles'),
+            '@icons': path.resolve(__dirname, './src/assets/icons'),
+            '@img': path.resolve(__dirname, './src/assets/img')
+
+        }
     },
     module:{
         rules:[
@@ -36,6 +48,10 @@ module.exports ={
                     "sass-loader"
                 ],
             },
+            {
+                test: /\.(png|svg|jpg|gif)$/,
+                type:'asset'
+            }
         ]
     },
     plugins:[
@@ -49,9 +65,11 @@ module.exports ={
         })
     ],
     devServer:{
-        static: path.join(__dirname, 'dist'),
+        historyApiFallback: true,
+        allowedHosts: path.join(__dirname, 'dist'),
         compress:true,
         port:3005,
+        open: true,
     }
 
 }
